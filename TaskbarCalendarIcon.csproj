@@ -8,4 +8,70 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\0_fri.png" />
+    <None Remove="Assets\0_mon.png" />
+    <None Remove="Assets\0_sat.png" />
+    <None Remove="Assets\0_sun.png" />
+    <None Remove="Assets\0_thu.png" />
+    <None Remove="Assets\0_tue.png" />
+    <None Remove="Assets\0_wed.png" />
+    <None Remove="Assets\1_fri.png" />
+    <None Remove="Assets\1_mon.png" />
+    <None Remove="Assets\1_sat.png" />
+    <None Remove="Assets\1_sun.png" />
+    <None Remove="Assets\1_thu.png" />
+    <None Remove="Assets\1_tue.png" />
+    <None Remove="Assets\1_wed.png" />
+    <None Remove="Assets\2_sat.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\0_fri.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\0_mon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\0_sat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\0_sun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\0_thu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\0_tue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\0_wed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_fri.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_mon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_sat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_sun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_thu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_tue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\1_wed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\2_sat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -36,7 +37,18 @@ namespace TaskbarCalendarIcon
         {
             Loaded += MainWindow_Loaded;
             notifyIcon.Click += new EventHandler(NotifyIcon_Click);
-            notifyIcon.Icon = new System.Drawing.Icon(@"d:\favicon.ico");
+
+            var dayOfWeek = DateTime.Now.DayOfWeek;
+            var dowStr = dayOfWeek.ToString()[0..3].ToLower();
+            var color = dayOfWeek switch
+            {
+                DayOfWeek.Sunday => 1,
+                DayOfWeek.Saturday => 2,
+                _ => 0
+            };
+            var bitmap = new Bitmap($"Resources\\{color}_{dowStr}.png"); // or get it from resource
+            var iconHandle = bitmap.GetHicon();           
+            notifyIcon.Icon = System.Drawing.Icon.FromHandle(iconHandle);
             notifyIcon.Visible = true;
             notifyIcon.Text = NotifyText();
 

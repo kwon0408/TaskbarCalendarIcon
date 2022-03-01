@@ -7,4 +7,4 @@
 *TODO: 여기에 더 자세한 프로젝트 설명 입력*
  
 ## Licenses
-* [도스명조 (DOSMyungjo)](https://github.com/hurss/fonts) font, published under the [MIT License](https://github.com/hurss/fonts/blob/master/LICENSE.txt), is used for icons.
+* 아이콘에는 [MIT License](https://github.com/hurss/fonts/blob/master/LICENSE.txt)로 배포되는 [도스명조 (DOSMyungjo)](https://github.com/hurss/fonts) 글꼴을 사용했습니다.

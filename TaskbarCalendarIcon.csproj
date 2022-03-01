@@ -9,69 +9,51 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\0_fri.png" />
-    <None Remove="Assets\0_mon.png" />
-    <None Remove="Assets\0_sat.png" />
-    <None Remove="Assets\0_sun.png" />
-    <None Remove="Assets\0_thu.png" />
-    <None Remove="Assets\0_tue.png" />
-    <None Remove="Assets\0_wed.png" />
-    <None Remove="Assets\1_fri.png" />
-    <None Remove="Assets\1_mon.png" />
-    <None Remove="Assets\1_sat.png" />
-    <None Remove="Assets\1_sun.png" />
-    <None Remove="Assets\1_thu.png" />
-    <None Remove="Assets\1_tue.png" />
-    <None Remove="Assets\1_wed.png" />
-    <None Remove="Assets\2_sat.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Assets\0_fri.png">
+    <EmbeddedResource Include="Resources\0_fri.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\0_mon.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\0_mon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\0_sat.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\0_sat.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\0_sun.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\0_sun.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\0_thu.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\0_thu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\0_tue.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\0_tue.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\0_wed.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\0_wed.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_fri.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_fri.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_mon.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_mon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_sat.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_sat.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_sun.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_sun.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_thu.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_thu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_tue.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_tue.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\1_wed.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1_wed.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Assets\2_sat.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\2_sat.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
